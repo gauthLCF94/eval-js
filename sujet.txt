@@ -1,0 +1,53 @@
+ÉVALUATION NODE JS
+
+Vous avez en charge la création de l’api de gestion d’un parc de golfs.
+
+Chaque golf est caractérisé par:
+-	un ID
+-	Un titre
+-	Une latitude
+-	Une longitude
+-	Une description
+-	Un manager
+
+Chaque manager de golf est caractérisé par:
+-	un ID
+-	Un nom
+-	Un prénom
+-	Mail
+-	Téléphone
+
+Un manager peut être affecté seulement à un et un seul golf.
+
+L’api permet de :
+-	créer une golf
+-	Mettre à jour un golf
+-	Supprimer un golf
+-	Lire un golf
+-	créer un manager
+-	Supprimer un manager
+-	Mettre à jour un manager
+-	Lire un manager
+
+Tous les end points de l’api sont soumis à l’authentification et l’autorisation d’un compte admin à travers le JWT excepté la lecture d’un golf.
+Un compte admin est nécessaire pour accéder au CRUD des golfs et managers.
+
+Le compte admin est caractérisé par:
+-	un id
+-	Nom
+-	Prénom
+-	Rôle
+-	Mail
+-	Mot de passe
+-	Admin (Boolean)
+
+BONUS:
+-	créer le front end sous react ou un autre framework JS (vous pouvez vous servir des latitudes et longetitudes pour placer les golfs sur une Google Map)
+-	Utilisation de Koa à la place de Express JS
+
+La base de donnée utilisée est MongoDb (en Cloud).
+L’api doit être livré sous un repo GIT avec dans un fichier readme à la racine le nom + prénom du/des élèves.
+Possibilité de faire le projet par groupe de 2 maximum.
+
+Deadline: 13 février
+Update: deadline 17 février
